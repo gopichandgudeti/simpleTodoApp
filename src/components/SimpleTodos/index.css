@@ -19,12 +19,15 @@ body {
   align-items: center;
   background-color: #ffc2a0;
   border: 2px solid #ff8542;
-  height: 100vh;
+  height: 100%;
+  padding: 20px;
 }
 
 .todo-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 90%;
   border-radius: 10px;
   background-color: #ffffff;
@@ -40,4 +43,37 @@ body {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
+}
+
+.input-add-btn-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-container {
+  height: 35px;
+  width: 50%;
+  margin-right: 10px;
+  border: 1px solid;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.add-button {
+  background-color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  height: 35px;
+  width: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 5px;
 }
